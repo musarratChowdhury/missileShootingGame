@@ -1,0 +1,20 @@
+#gameCanvas{
+    width: 100%;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: .3fr 4.4fr .3fr;
+   
+    
+    width: 100%;
+}
+
+.canvas-container{
+    display: flex;
+            flex-direction: column;
+            align-items: center;
+}
+.choice-btn{
+   padding: 3px;
+}
